@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  RT-CLI:
+    image: "python:latest"
+    volumes:
+      - .:/RT_CLI
+    command: 
+      - /bin/bash 
+      - -c 
+      - |
+        pip install poetry
+        poetry add scons
