@@ -1,3 +1,6 @@
 *.lock
 artifacts/**
 virtualenvs/**
+**/__pycache__
+**.pyc
+**.idea

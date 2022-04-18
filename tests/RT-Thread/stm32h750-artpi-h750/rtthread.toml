@@ -1,0 +1,47 @@
+# project name
+[project]
+NAME = "art-pi"
+ARCH = "arm"
+CPU = "cortex-m7"
+CROSS_TOOL = "gcc"
+BSP_LIB = true
+BUILD_TYPE = "debug"
+PLATFORM = 'gcc'
+# RTT_ROOT = 
+# BSP_ROOT = 
+# PKG_ROOT = 
+# toolchain settings
+[toolchain]
+PLATFORM = 'gcc'
+EXEC_PATH = 'C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin'
+PREFIX = "arm-none-eabi-"
+CC = "gcc"
+AS = "gcc"
+AR = "ar"
+CXX = "g++"
+LINK = "gcc"
+SIZE = "size"
+OBJDUMP = "objdump"
+OBJCPY = "objcopy"
+[toolchain.build_options]
+
+
+# [gcc] # EXEC_PATH = 'C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin' # prefix = "arm-none-eabi-" # CC = "gcc"
+# AS = "gcc"
+# AR = "ar"
+# CXX = "g++"
+# LINK = "gcc"
+# TARGET_EXT = "elf"
+# SIZE = "size"
+# OBJDUMP = "objdump"
+# OBJCPY = "objcopy"
+# DEVICE = "-mcpu=cortex-m7 -mthumb -mfpu=fpv5-d16 -mfloat-abi=hard -ffunction-sections -fdata-sections"
+# CFLAGS = "${DEVICE} -Dgcc"
+# AFLAGS = "-c ${DEVICE} -x assembler-with-cpp -Wa, -mimplicit-it=thumb"
+# LFLAGS = "${DEVICE} -Wl,--gc-sections,-Map=rtthread.map,-cref,-u,Reset_Handler -T board/linker_scripts/link.lds'-Wl,--gc-sections,-Map=rtthread.map,-cref,-u,Reset_Handler -T"
+# CPATH = 
+# LPATH = 
+
+
+
+

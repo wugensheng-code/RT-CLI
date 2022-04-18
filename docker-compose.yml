@@ -4,6 +4,7 @@ services:
     image: "python:latest"
     volumes:
       - .:/RT_CLI
+    working_dir: /RT_CLI
     command: 
       - /bin/bash 
       - -c 

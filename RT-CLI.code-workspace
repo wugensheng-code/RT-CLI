@@ -4,5 +4,14 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"docker.commands.runInteractive": "docker run --rm -itd -v ${workspaceFolder}:/RT_CLI ${exposedPorts} ${tag}",
+		"python.testing.pytestEnabled": true,
+		"files.exclude": {
+			"**/__pycache__": true,
+			"**/.idea": true,
+			"**/.pytest_cache": true
+		},
+		"editor.quickSuggestionsDelay": 0,
+	},
 }
