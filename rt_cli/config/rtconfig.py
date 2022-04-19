@@ -1,4 +1,3 @@
-from distutils.command.config import config
 from typing import Dict
 from tomlkit.toml_file import TOMLFile
 from ..utilities.singleton import Singleton
